@@ -1,0 +1,17 @@
+.landpage {
+  display: flex;
+  padding: 2em;
+  margin-top: 2rem;
+  margin-left: 18em;
+}
+.another {
+  margin-left: 5em;
+}
+
+.landpage:hover {
+  text-decoration: none;
+  margin-left: 10;
+  font-size: 18px;
+  font-style: italic;
+  font-color: red;
+}

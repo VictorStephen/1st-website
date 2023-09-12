@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  color: rgba(22, 0, 0, 0.411);
+}
+
+body {
+  background-image: linear-gradient(rgba(34, 32, 32, 0.5), #009688),
+    url("images/pic2.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+}
+a:hover {
+  color: rgb(255, 0, 0);
+  font-size: 19px;
+}
+
+.heading {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: Merienda;
+  font-size: 18px;
+}
+.one {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+li > a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: Merienda;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: abolute;
+
+  margin-top: 100px;
+}
+
+.test {
+  border-style: solid;
+  border-radius: 8px;
+  text-align: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 150px;
+  border-color: rgb(87, 83, 83);
+  border-width: 1px;
+}
+h1 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+p {
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: rgb(5, 8, 8);
+  font-size: 20px;
+  font-family: Merienda;
+}
+
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+h2 {
+  padding-left: 40px;
+  font-family: Merienda;
+}
+
+.dice {
+  font-family: Merienda;
+  font-size: 50px;
+}
+.golf {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.about {
+  display: flex;
+}
+
+.aboutpage {
+  background-color: rgb(210, 177, 248);
+  margin-top: 100px;
+  margin-bottom: 450px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  font-family: Merienda;
+}
+.victor {
+  background-color: orchid;
+  border-radius: 10px;
+  border: solid;
+}
+.charles {
+  color: #5fee42;
+}
+
+.box {
+  width: 40%;
+  border: rgb(9, 91, 116) solid 1px;
+  box-shadow: 5px 5px 5px rgb(8, 7, 7);
+  border-radius: 10px;
+}
+.add {
+  width: 40%;
+  border: rgb(9, 91, 116) solid 1px;
+  box-shadow: 5px 5px 5px rgb(2, 2, 2);
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  margin-top: 200px;
+}
+label,
+input {
+  display: block;
+  box-sizing: border-box;
+  padding-left: 8px;
+}
+
+input {
+  margin-top: 5px;
+  box-shadow: 2px 2px 2px rgb(2, 2, 2);
+  border-radius: 5px;
+}
+label {
+  margin-top: 10px;
+}
+button {
+  display: block;
+  margin-left: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(123, 85, 150);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.phone1 {
+  padding-left: 8px;
+  padding-top: 14px;
+}
+.phone2 {
+  padding-left: 8px;
+  padding-top: 30px;
+}
+.loc {
+  padding-left: 8px;
+  padding-top: 30px;
+}
+.email1 {
+  padding-left: 8px;
+  padding-top: 30px;
+}
+.email2 {
+  padding-left: 8px;
+  padding-top: 30px;
+}
+.address {
+  padding-left: 8px;
+  padding-top: 30px;
+}
+.span {
+  color: rgb(20, 248, 153);
+}
+
+h5,
+span {
+  font-size: 15px;
+}

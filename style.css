@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.one {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+}
+.one :hover {
+  color: rgb(119, 0, 255);
+  font-size: 26px;
+}
+li > a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: Merienda;
+  font-size: 15px;
+  font-weight: 700;
+}
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688),
+    url(images/emotionheader.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.heading {
+  text-align: center;
+  color: #fff;
+  padding-top: 130px;
+}
+.heading h1 {
+  font-size: 130px;
+}
+.heading p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.heading h2 {
+  font-size: 100px;
+  font-style: italic;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
+  padding: 20px;
+}
+.top h3 {
+  font-size: 30px;
+}
+
+.foot {
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#charles {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688),
+    url(images/FRINGE59_preview.png);
+  background-size: cover;
+  background-position: center;
+  height: 98vh;
+}
+.golf {
+  text-align: center;
+}
+.golf h1 {
+  font-size: 100px;
+  font-style: italic;
+}
+.golf p {
+  font-size: 50px;
+  font-style: italic;
+}
+.golf p1 {
+  font-size: 30px;
+}
+.hero-btn {
+  margin: 70px auto 0;
+}
+.Qwerty {
+  width: 150px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  border: 0.5px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+}
